@@ -13,6 +13,7 @@ hi Character       guifg=#FFF382
 hi Number          guifg=#8DEFB5
 hi String          guifg=#FFF382
 hi Conditional     guifg=#FF8A3C               gui=bold
+hi Conceal         guifg=#BA7FFA guibg=#1B1D1E gui=bold
 hi Constant        guifg=#A1DD63               gui=bold
 hi Cursor          guifg=#000000 guibg=#F8F8F0
 hi iCursor         guifg=#000000 guibg=#F8F8F0
