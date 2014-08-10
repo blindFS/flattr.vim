@@ -76,7 +76,7 @@ hi VisualNOS      guibg=#403D3D ctermbg=237
 hi Visual         guibg=#403D3D ctermbg=237
 hi WarningMsg     guifg=#FF914C ctermfg=209 guibg=#333333 ctermbg=236 gui=bold
 hi WildMenu       guifg=#ABBAFF ctermfg=147 guibg=#000000 ctermbg=234
-hi Normal         guifg=#E5E5E5 ctermfg=7   guibg=#1B1D1E ctermbg=0
+hi Normal         guifg=#E5E5E5 ctermfg=250 guibg=#1B1D1E ctermbg=0
 hi Comment        guifg=#5C5C5C ctermfg=59
 hi CursorLine     guibg=#293739 ctermbg=236
 hi CursorLineNr   guifg=#FFB761 ctermfg=215 gui=none
