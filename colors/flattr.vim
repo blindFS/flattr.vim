@@ -18,7 +18,7 @@ hi iCursor        guifg=#000000 ctermfg=0   guibg=#F8F8F0 ctermbg=15
 hi Debug          guifg=#FF154A ctermfg=197 gui=bold
 hi Define         guifg=#FF9E56 ctermfg=215
 hi Delimiter      guifg=#8F8F8F ctermfg=245
-hi DiffAdd        guibg=#7EC4EF ctermbg=117
+hi DiffAdd        guifg=#000000 ctermfg=0   guibg=#7EC4EF ctermbg=117
 hi DiffChange     guifg=#4EDC44 ctermfg=77  guibg=#4C4745 ctermbg=238
 hi DiffDelete     guifg=#FF311D ctermfg=202 guibg=#4F4F4F ctermbg=239
 hi DiffText       guibg=#4C4745 ctermbg=238 gui=italic,bold
@@ -67,7 +67,7 @@ hi StorageClass   guifg=#ECA756 ctermfg=215 gui=italic
 hi Structure      guifg=#7CC3F6 ctermfg=111
 hi Tag            guifg=#F7547C ctermfg=204 gui=italic
 hi Title          guifg=#ef5939 ctermfg=203
-hi Todo           guifg=#E962FB ctermfg=171 guibg=bg      gui=bold
+hi Todo           guifg=#E962FB ctermfg=171 guibg=bg      ctermbg=0   gui=bold
 hi Typedef        guifg=#F6D94B ctermfg=221
 hi Type           guifg=#BEEF66 ctermfg=155 gui=none
 hi Underlined     guifg=#808080 ctermfg=244 gui=underline
