@@ -8,13 +8,15 @@ endif
 let g:colors_name="flattr"
 hi Boolean        guifg=#8DEFB5 ctermfg=121
 hi Character      guifg=#FFF382 ctermfg=228
-hi Number         guifg=#8DEFB5 ctermfg=121
-hi String         guifg=#FFF382 ctermfg=228
+hi ColorColumn    guibg=#232526 ctermbg=235
 hi Conditional    guifg=#FF8A3C ctermfg=209 gui=bold
 hi Conceal        guifg=#BA7FFA ctermfg=141 guibg=#1B1D1E ctermbg=234 gui=bold
 hi Constant       guifg=#A1DD63 ctermfg=149 gui=bold
+hi Comment        guifg=#5C5C5C ctermfg=59
+hi CursorLine     guibg=#293739 ctermbg=236
+hi CursorLineNr   guifg=#FFB761 ctermfg=215 gui=none
+hi CursorColumn   guibg=#293739 ctermbg=236
 hi Cursor         guifg=#000000 ctermfg=0   guibg=#F8F8F0 ctermbg=15
-hi iCursor        guifg=#000000 ctermfg=0   guibg=#F8F8F0 ctermbg=15
 hi Debug          guifg=#FF154A ctermfg=197 gui=bold
 hi Define         guifg=#FF9E56 ctermfg=215
 hi Delimiter      guifg=#8F8F8F ctermfg=245
@@ -30,16 +32,20 @@ hi Float          guifg=#ECE352 ctermfg=221
 hi FoldColumn     guifg=#465457 ctermfg=239 guibg=#000000 ctermbg=234
 hi Folded         guifg=#465457 ctermfg=239 guibg=#000000 ctermbg=234
 hi Function       guifg=#FFB792 ctermfg=216
+hi iCursor        guifg=#000000 ctermfg=0   guibg=#F8F8F0 ctermbg=15
 hi Identifier     guifg=#F9A33D ctermfg=215
 hi Ignore         guifg=#656565 ctermfg=241 guibg=bg
 hi IncSearch      guifg=#DCCA2D ctermfg=184 guibg=#000000 ctermbg=234
 hi Keyword        guifg=#78D3F4 ctermfg=117 gui=bold
 hi Label          guifg=#FFD554 ctermfg=221 gui=none
+hi LineNr         guifg=#465457 ctermfg=239 guibg=#232526 ctermbg=235
 hi Macro          guifg=#CF8BA8 ctermfg=175 gui=italic
-hi SpecialKey     guifg=#D466EF ctermfg=171 gui=italic
 hi MatchParen     guifg=#000000 ctermfg=0   guibg=#FFAE4F ctermbg=215 gui=bold
 hi ModeMsg        guifg=#3DFBA5 ctermfg=85
 hi MoreMsg        guifg=#8EFCCD ctermfg=122
+hi NonText        guifg=#465457 ctermfg=239
+hi Normal         guifg=#E5E5E5 ctermfg=250 guibg=#1B1D1E ctermbg=0
+hi Number         guifg=#8DEFB5 ctermfg=121
 hi Operator       guifg=#F92672 ctermfg=197
 " complete menu
 hi Pmenu          guifg=#66D9EF ctermfg=81  guibg=#000000 ctermbg=234
@@ -53,18 +59,21 @@ hi Repeat         guifg=#FF7499 ctermfg=210 gui=bold
 hi Search         guifg=#000000 ctermfg=0   guibg=#F3C82F ctermbg=220
 " marks
 hi SignColumn     guifg=#C2FF46 ctermfg=155 guibg=#232526 ctermbg=235
+hi Special        guifg=#94DBE9 ctermfg=116 guibg=bg      gui=italic
 hi SpecialChar    guifg=#85D99A ctermfg=114 gui=bold
 hi SpecialComment guifg=#6A6E6F ctermfg=242 gui=bold
-hi Special        guifg=#94DBE9 ctermfg=116 guibg=bg      gui=italic
+hi SpecialKey     guifg=#D466EF ctermfg=171 gui=italic
 if has("spell")
-hi SpellBad       guisp=#FF976D gui=undercurl
-hi SpellCap       guisp=#9999FD gui=undercurl
-hi SpellLocal     guisp=#5CD8F5 gui=undercurl
-hi SpellRare      guisp=#E5CBCB gui=undercurl
+    hi SpellBad       guisp=#FF976D gui=undercurl
+    hi SpellCap       guisp=#9999FD gui=undercurl
+    hi SpellLocal     guisp=#5CD8F5 gui=undercurl
+    hi SpellRare      guisp=#E5CBCB gui=undercurl
 endif
 hi Statement      guifg=#61D1FD ctermfg=81  gui=bold
 hi StorageClass   guifg=#ECA756 ctermfg=215 gui=italic
+hi String         guifg=#FFF382 ctermfg=228
 hi Structure      guifg=#7CC3F6 ctermfg=111
+hi Tabline        guifg=#000000 ctermfg=016 guibg=#888888 ctermbg=14
 hi Tag            guifg=#F7547C ctermfg=204 gui=italic
 hi Title          guifg=#ef5939 ctermfg=203
 hi Todo           guifg=#E962FB ctermfg=171 guibg=bg      ctermbg=0   gui=bold
@@ -76,15 +85,6 @@ hi VisualNOS      guibg=#403D3D ctermbg=237
 hi Visual         guibg=#403D3D ctermbg=237
 hi WarningMsg     guifg=#FF914C ctermfg=209 guibg=#333333 ctermbg=236 gui=bold
 hi WildMenu       guifg=#ABBAFF ctermfg=147 guibg=#000000 ctermbg=234
-hi Normal         guifg=#E5E5E5 ctermfg=250 guibg=#1B1D1E ctermbg=0
-hi Comment        guifg=#5C5C5C ctermfg=59
-hi CursorLine     guibg=#293739 ctermbg=236
-hi CursorLineNr   guifg=#FFB761 ctermfg=215 gui=none
-hi CursorColumn   guibg=#293739 ctermbg=236
-hi ColorColumn    guibg=#232526 ctermbg=235
-hi LineNr         guifg=#465457 ctermfg=239 guibg=#232526 ctermbg=235
-hi NonText        guifg=#465457 ctermfg=239
-hi SpecialKey     guifg=#465457 ctermfg=239
 " for TagHighlight
 hi Class          guifg=#18E28D ctermfg=42
 hi DefinedName    guifg=#838ED7 ctermfg=104
