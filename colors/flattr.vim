@@ -32,6 +32,7 @@ hi Float          guifg=#ECE352 ctermfg=221
 hi FoldColumn     guifg=#465457 ctermfg=239 guibg=#000000 ctermbg=234
 hi Folded         guifg=#465457 ctermfg=239 guibg=#000000 ctermbg=234
 hi Function       guifg=#FFB792 ctermfg=216
+hi helpExample    guifg=#65AE8D ctermfg=79
 hi iCursor        guifg=#000000 ctermfg=0   guibg=#F8F8F0 ctermbg=15
 hi Identifier     guifg=#F9A33D ctermfg=215
 hi Ignore         guifg=#656565 ctermfg=241 guibg=bg
